@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:textColor="#12012b"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="gravity"
+            android:textColor="#8b04ec"
+            android:textSize="17sp"
+             />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="#8b04ec"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:visibility="visible" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit"
+        android:id="@+id/kg"
+        android:layout_marginLeft="60dp"
+        android:textSize="12dp"
+        android:textColor="#494747" />
+    <TextView
+        android:id="@+id/un"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textColor="#8b04ec"
+        android:layout_marginLeft="5dp"
+        android:visibility="visible" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs."
+        android:id="@+id/rs"
+        android:textSize="12dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#c10707"/>
+    <TextView
+        android:id="@+id/pi"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textColor="#8b04ec"
+        android:layout_marginLeft="5dp"
+        android:visibility="visible" />
+</LinearLayout>
+
+</RelativeLayout>

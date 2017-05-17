@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_of_item">
+        <item>"Apple"</item>
+        <item>"Orange"</item>
+        <item>"Onion"</item>
+        <item>"Current"</item>
+        <item>"Bus"</item>
+        <item>"Car"</item>
+        <item>"Flight"</item>
+        <item>"Medical"</item>
+        <item>"Hospital"</item>
+        <item>"College"</item>
+        <item>"School"</item>
+        <item>"Water"</item>
+        <item>"White pumpkin"</item>
+        <item>"Brinjal"</item>
+        <item>"Beetroot"</item>
+        <item>"White gourd"</item>
+        <item>"Bitter melon"</item>
+        <item>"Cabbage"</item>
+        <item>"Carrot"</item>
+        <item>"Capsicum"</item>
+        <item>"Cauliflower"</item>
+        <item>"Cluster Beans"</item>
+        <item>"Coconut"</item>
+        <item>"Corn"</item>
+        <item>"Drumsticks"</item>
+        <item>"Garlic"</item>
+        <item>"Sugar"</item>
+        <item>"Salt"</item>
+        <item>"Beer"</item>
+        <item>"Brandy"</item>
+        <item>"Wine"</item>
+    </string-array>
+
+</resources>

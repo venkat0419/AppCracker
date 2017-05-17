@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="18dp"
+        android:layout_marginTop="30dp" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <Toolbar
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#f96b6b">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adding New Data"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                />
+        </Toolbar>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <AutoCompleteTextView
+                android:id="@+id/item_edittext"
+                android:layout_width="187dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="item" />
+
+            <EditText
+                android:id="@+id/unit_edittext"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="unit"
+                android:layout_marginLeft="15dp"
+                android:inputType="number">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <Spinner
+                android:id="@+id/category_edittext"
+                android:layout_width="187dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="category" />
+
+            <EditText
+                android:id="@+id/price_edittext"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="price"
+                android:layout_marginLeft="15dp"
+                android:inputType="number"
+                ></EditText>
+        </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/add_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/add_record"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false" />
+
+</LinearLayout>

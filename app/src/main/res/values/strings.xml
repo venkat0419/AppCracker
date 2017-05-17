@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppCracker</string>
+    <string name="enter_name">Country Name</string>
+    <string name="add_record">Add Record</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="empty_list_text">No records found</string>
+    <string name="enter_desc">Currency</string>
+    <string name="enter_title">Country</string>
+    <string name="sort" color="#f7f5f5">Sort by Category</string>
+</resources>
+
+
+
